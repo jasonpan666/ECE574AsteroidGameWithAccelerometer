@@ -1,0 +1,6 @@
+19:54:07 INFO  : Registering command handlers for SDK TCF services
+19:54:07 INFO  : Launching XSCT server: xsct.bat -interactive D:\project_final\project_final.sdk\temp_xsdb_launch_script.tcl
+19:54:09 INFO  : XSCT server has started successfully.
+19:54:10 INFO  : Processing command line option -hwspec D:/project_final/project_final.sdk/top_logic.hdf.
+19:54:10 INFO  : Successfully done setting XSCT server connection channel  
+19:54:10 INFO  : Successfully done setting SDK workspace  

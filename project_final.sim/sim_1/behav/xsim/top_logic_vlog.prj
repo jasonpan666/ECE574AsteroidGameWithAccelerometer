@@ -1,0 +1,26 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../project_final.srcs/sources_1/ip/microblaze_mcs_0/bd_0/sim/bd_fc5c.v" \
+"../../../../project_final.srcs/sources_1/ip/microblaze_mcs_0/microblaze_mcs_0_sim_netlist.v" \
+"../../../../project_final.srcs/sources_1/new/ClkDiv_50MHz.v" \
+"../../../../project_final.srcs/sources_1/new/ball_movement.v" \
+"../../../../project_final.srcs/sources_1/new/board.v" \
+"../../../../project_final.srcs/sources_1/new/clkdiv_5hz.v" \
+"../../../../project_final.srcs/sources_1/new/draw_ball.v" \
+"../../../../project_final.srcs/sources_1/new/draw_score.v" \
+"../../../../project_final.srcs/sources_1/new/draw_shape.v" \
+"../../../../project_final.srcs/sources_1/new/final_out.v" \
+"../../../../project_final.srcs/sources_1/new/paddle1_movement.v" \
+"../../../../project_final.srcs/sources_1/new/slaveselect.v" \
+"../../../../project_final.srcs/sources_1/new/spicomponent.v" \
+"../../../../project_final.srcs/sources_1/new/spiinterface.v" \
+"../../../../project_final.srcs/sources_1/new/spimaster.v" \
+"../../../../project_final.srcs/sources_1/new/temp_sensor.v" \
+"../../../../project_final.srcs/sources_1/new/xvga.v" \
+"../../../../project_final.srcs/sources_1/new/top_logic.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

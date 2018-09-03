@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1513163949">
+  <File Type="ROUTE-PWR" Name="top_logic_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="top_logic.tcl"/>
+  <File Type="PWROPT-DCP" Name="top_logic_pwropt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="top_logic_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="top_logic_reports.tcl"/>
+  <File Type="BG-DRC" Name="top_logic.drc"/>
+  <File Type="OPT-HWDEF" Name="top_logic.hwdef"/>
+  <File Type="OPT-DCP" Name="top_logic_opt.dcp"/>
+  <File Type="OPT-DRC" Name="top_logic_drc_opted.rpt"/>
+  <File Type="PLACE-DCP" Name="top_logic_placed.dcp"/>
+  <File Type="PLACE-IO" Name="top_logic_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="top_logic_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="top_logic_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="top_logic_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="top_logic_incremental_reuse_pre_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="top_logic_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="top_logic_physopt.dcp"/>
+  <File Type="BG-BIT" Name="top_logic.bit"/>
+  <File Type="ROUTE-ERROR-DCP" Name="top_logic_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="top_logic_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="top_logic_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="top_logic_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="top_logic_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="top_logic_drc_routed.rpx"/>
+  <File Type="BITSTR-MSK" Name="top_logic.msk"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="top_logic_methodology_drc_routed.rpt"/>
+  <File Type="BG-BGN" Name="top_logic.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="top_logic_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-RBT" Name="top_logic.rbt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="top_logic_methodology_drc_routed.pb"/>
+  <File Type="BG-BIN" Name="top_logic.bin"/>
+  <File Type="ROUTE-PWR-RPX" Name="top_logic_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="top_logic_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="top_logic_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="top_logic_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="top_logic_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="top_logic_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-CLK" Name="top_logic_clock_utilization_routed.rpt"/>
+  <File Type="RDI-RDI" Name="top_logic.vdi"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="top_logic_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="top_logic_postroute_physopt_bb.dcp"/>
+  <File Type="BITSTR-NKY" Name="top_logic.nky"/>
+  <File Type="BITSTR-BMM" Name="top_logic_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="top_logic.mmi"/>
+  <File Type="BITSTR-LTX" Name="top_logic.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="top_logic.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/ClkDiv_50MHz.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/zpan/Desktop/project_game/project_game.srcs/sources_1/new/ClkDiv_50MHz.v"/>
+        <Attr Name="ImportTime" Val="1512851446"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ball_movement.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/zpan/Desktop/project_game/project_game.srcs/sources_1/new/ball_movement.v"/>
+        <Attr Name="ImportTime" Val="1513070884"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/board.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/zpan/Desktop/project_game/project_game.srcs/sources_1/new/board.v"/>
+        <Attr Name="ImportTime" Val="1512942134"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/clkdiv_5hz.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/zpan/Desktop/project_game/project_game.srcs/sources_1/new/clkdiv_5hz.v"/>
+        <Attr Name="ImportTime" Val="1512851432"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/draw_ball.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/zpan/Desktop/project_game/project_game.srcs/sources_1/new/draw_ball.v"/>
+        <Attr Name="ImportTime" Val="1513069834"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/draw_score.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/zpan/Desktop/project_game/project_game.srcs/sources_1/new/draw_score.v"/>
+        <Attr Name="ImportTime" Val="1512851370"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/draw_shape.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/zpan/Desktop/project_game/project_game.srcs/sources_1/new/draw_shape.v"/>
+        <Attr Name="ImportTime" Val="1513069360"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/final_out.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/zpan/Desktop/project_game/project_game.srcs/sources_1/new/final_out.v"/>
+        <Attr Name="ImportTime" Val="1513025746"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/paddle1_movement.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/zpan/Desktop/project_game/project_game.srcs/sources_1/new/paddle1_movement.v"/>
+        <Attr Name="ImportTime" Val="1513022870"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/slaveselect.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/zpan/Desktop/project_game/project_game.srcs/sources_1/new/slaveselect.v"/>
+        <Attr Name="ImportTime" Val="1512851262"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/spicomponent.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/zpan/Desktop/project_game/project_game.srcs/sources_1/new/spicomponent.v"/>
+        <Attr Name="ImportTime" Val="1512954918"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/spiinterface.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/zpan/Desktop/project_game/project_game.srcs/sources_1/new/spiinterface.v"/>
+        <Attr Name="ImportTime" Val="1512851306"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/spimaster.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/zpan/Desktop/project_game/project_game.srcs/sources_1/new/spimaster.v"/>
+        <Attr Name="ImportTime" Val="1512954920"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/temp_sensor.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/zpan/Desktop/project_game/project_game.srcs/sources_1/new/temp_sensor.v"/>
+        <Attr Name="ImportTime" Val="1513066196"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/xvga.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/zpan/Desktop/project_game/project_game.srcs/sources_1/new/xvga.v"/>
+        <Attr Name="ImportTime" Val="1513069868"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/top_logic.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/zpan/Desktop/project_game/project_game.srcs/sources_1/new/top_logic.v"/>
+        <Attr Name="ImportTime" Val="1513069508"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSDKDIR/pcdisplay/Debug/pcdisplay.elf">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="ScopedToRef" Val="microblaze_mcs_0"/>
+        <Attr Name="ScopedToCell" Val="inst/microblaze_I"/>
+        <Attr Name="IsVisible" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="top_logic"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/Nexys4DDR_Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/zpan/Desktop/project_game/project_game.srcs/constrs_1/new/Nexys4DDR_Master.xdc"/>
+        <Attr Name="ImportTime" Val="1513069586"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="microblaze_mcs_0"/>
+</GenRun>

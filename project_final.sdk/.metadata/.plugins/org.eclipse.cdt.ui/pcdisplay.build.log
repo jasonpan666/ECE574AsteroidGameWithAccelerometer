@@ -1,0 +1,21 @@
+19:57:18 **** Auto Build of configuration Debug for project pcdisplay ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../pcdisplay_bsp/microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pcdisplay.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../pcdisplay_bsp/microblaze_I/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "pcdisplay.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pcdisplay.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size pcdisplay.elf  |tee "pcdisplay.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2912	    268	   3108	   6288	   1890	pcdisplay.elf
+'Finished building: pcdisplay.elf.size'
+' '
+
+19:57:20 Build Finished (took 2s.282ms)
+

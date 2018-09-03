@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Wed Dec 13 06:58:04 2017
+# Process ID: 20036
+# Current directory: D:/Study/USA_Graduate/WPI_Graduate_3/17_Fall_Courses/project_final/project_final.runs/impl_1
+# Command line: vivado.exe -log top_logic.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source top_logic.tcl -notrace
+# Log file: D:/Study/USA_Graduate/WPI_Graduate_3/17_Fall_Courses/project_final/project_final.runs/impl_1/top_logic.vdi
+# Journal file: D:/Study/USA_Graduate/WPI_Graduate_3/17_Fall_Courses/project_final/project_final.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source top_logic.tcl -notrace
